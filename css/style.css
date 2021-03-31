@@ -1,0 +1,1429 @@
+@font-face {
+  font-family: 'Proxima Nova Rg';
+  src: url("fonts/subset-ProximaNova-Regular.eot");
+  src: url("fonts/subset-ProximaNova-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/subset-ProximaNova-Regular.woff2") format("woff2"), url("fonts/subset-ProximaNova-Regular.woff") format("woff"), url("fonts/subset-ProximaNova-Regular.ttf") format("truetype"), url("fonts/subset-ProximaNova-Regular.svg#ProximaNova-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Lt', sans-serif;
+  src: url("fonts/subset-ProximaNova-Semibold.eot");
+  src: url("fonts/subset-ProximaNova-Semibold.eot?#iefix") format("embedded-opentype"), url("fonts/subset-ProximaNova-Semibold.woff2") format("woff2"), url("fonts/subset-ProximaNova-Semibold.woff") format("woff"), url("fonts/subset-ProximaNova-Semibold.ttf") format("truetype"), url("fonts/subset-ProximaNova-Semibold.svg#ProximaNova-Semibold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Rg', sans-serif;
+  src: url("fonts/subset-ProximaNova-Bold.eot");
+  src: url("fonts/subset-ProximaNova-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/subset-ProximaNova-Bold.woff2") format("woff2"), url("fonts/subset-ProximaNova-Bold.woff") format("woff"), url("fonts/subset-ProximaNova-Bold.ttf") format("truetype"), url("fonts/subset-ProximaNova-Bold.svg#ProximaNova-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ankchiddjgmbalc';
+  src: url("fonts/subset-amlgjlahnkgmkjoldgbpeifodofplkkf.eot");
+  src: url("fonts/subset-amlgjlahnkgmkjoldgbpeifodofplkkf.eot?#iefix") format("embedded-opentype"), url("fonts/subset-amlgjlahnkgmkjoldgbpeifodofplkkf.woff2") format("woff2"), url("fonts/subset-amlgjlahnkgmkjoldgbpeifodofplkkf.woff") format("woff"), url("fonts/subset-amlgjlahnkgmkjoldgbpeifodofplkkf.ttf") format("truetype"), url("fonts/subset-amlgjlahnkgmkjoldgbpeifodofplkkf.svg#amlgjlahnkgmkjoldgbpeifodofplkkf") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Rg';
+  src: url("fonts/subset-ProximaNova-Regular.eot");
+  src: url("fonts/subset-ProximaNova-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/subset-ProximaNova-Regular.woff2") format("woff2"), url("fonts/subset-ProximaNova-Regular.woff") format("woff"), url("fonts/subset-ProximaNova-Regular.ttf") format("truetype"), url("fonts/subset-ProximaNova-Regular.svg#ProximaNova-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Lt', sans-serif;
+  src: url("fonts/subset-ProximaNova-Semibold.eot");
+  src: url("fonts/subset-ProximaNova-Semibold.eot?#iefix") format("embedded-opentype"), url("fonts/subset-ProximaNova-Semibold.woff2") format("woff2"), url("fonts/subset-ProximaNova-Semibold.woff") format("woff"), url("fonts/subset-ProximaNova-Semibold.ttf") format("truetype"), url("fonts/subset-ProximaNova-Semibold.svg#ProximaNova-Semibold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Rg', sans-serif;
+  src: url("fonts/subset-ProximaNova-Bold.eot");
+  src: url("fonts/subset-ProximaNova-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/subset-ProximaNova-Bold.woff2") format("woff2"), url("fonts/subset-ProximaNova-Bold.woff") format("woff"), url("fonts/subset-ProximaNova-Bold.ttf") format("truetype"), url("fonts/subset-ProximaNova-Bold.svg#ProximaNova-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ankchiddjgmbalc';
+  src: url("fonts/subset-amlgjlahnkgmkjoldgbpeifodofplkkf.eot");
+  src: url("fonts/subset-amlgjlahnkgmkjoldgbpeifodofplkkf.eot?#iefix") format("embedded-opentype"), url("fonts/subset-amlgjlahnkgmkjoldgbpeifodofplkkf.woff2") format("woff2"), url("fonts/subset-amlgjlahnkgmkjoldgbpeifodofplkkf.woff") format("woff"), url("fonts/subset-amlgjlahnkgmkjoldgbpeifodofplkkf.ttf") format("truetype"), url("fonts/subset-amlgjlahnkgmkjoldgbpeifodofplkkf.svg#amlgjlahnkgmkjoldgbpeifodofplkkf") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* line 3, D:/Hillel/sports/scss/_header.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 6, D:/Hillel/sports/scss/_header.scss */
+.bpic {
+  background-image: url("../images/football.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 11, D:/Hillel/sports/scss/_header.scss */
+.bcolor {
+  background-color: rgba(24, 22, 54, 0.93);
+}
+
+/* line 14, D:/Hillel/sports/scss/_header.scss */
+.container {
+  max-width: 1542px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 21, D:/Hillel/sports/scss/_header.scss */
+.logo {
+  width: 189px;
+  height: 33px;
+  display: block;
+}
+
+/* line 26, D:/Hillel/sports/scss/_header.scss */
+.topline {
+  display: flex;
+  padding-top: 54px;
+}
+
+/* line 30, D:/Hillel/sports/scss/_header.scss */
+.toptext {
+  color: #ffffff;
+  font-family: "Proxima Nova Rg", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  margin-left: auto;
+  padding-top: calc(33px/2);
+}
+
+/* line 41, D:/Hillel/sports/scss/_header.scss */
+.topheader {
+  position: relative;
+  padding-top: 310px;
+}
+
+/* line 45, D:/Hillel/sports/scss/_header.scss */
+.line {
+  background-image: url("../images/line.png");
+  width: 254px;
+  height: 317px;
+  position: absolute;
+  left: 445px;
+  z-index: 2;
+  bottom: -50px;
+}
+
+/* line 54, D:/Hillel/sports/scss/_header.scss */
+.be {
+  font-family: 'Proxima Nova Rg', sans-serif;
+  color: #ffffff;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 100px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  z-index: 3;
+  position: relative;
+}
+
+/* line 65, D:/Hillel/sports/scss/_header.scss */
+.play {
+  font-family: 'Proxima Nova Rg', sans-serif;
+  color: #ffffff;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 100px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  z-index: 1;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-bottom: 25px;
+}
+
+/* line 80, D:/Hillel/sports/scss/_header.scss */
+.nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-bottom: 181px;
+}
+
+/* line 88, D:/Hillel/sports/scss/_header.scss */
+.link {
+  text-decoration: none;
+  color: #9071ea;
+  font-family: 'Proxima Nova Rg', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  margin-right: 53px;
+}
+
+/* line 99, D:/Hillel/sports/scss/_header.scss */
+.link:hover {
+  color: #ffffff;
+}
+
+/* line 103, D:/Hillel/sports/scss/_header.scss */
+.link:last-child {
+  margin-right: 0px;
+}
+
+/* line 107, D:/Hillel/sports/scss/_header.scss */
+.download-apps {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 110px;
+}
+
+/* line 112, D:/Hillel/sports/scss/_header.scss */
+.appstore {
+  width: 311px;
+  background-color: #5e42b0;
+  border-radius: 52px;
+  margin-right: 53px;
+  box-shadow: 0 16px 24px #0a0e34;
+}
+
+/* line 119, D:/Hillel/sports/scss/_header.scss */
+.appstore:hover {
+  background-color: black;
+}
+
+/* line 123, D:/Hillel/sports/scss/_header.scss */
+.mr {
+  margin-right: 0px;
+}
+
+/* line 126, D:/Hillel/sports/scss/_header.scss */
+.app {
+  text-decoration: none;
+}
+
+/* line 129, D:/Hillel/sports/scss/_header.scss */
+.firsttext {
+  color: #ffffff;
+  font-family: 'Proxima Nova Rg', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
+
+/* line 138, D:/Hillel/sports/scss/_header.scss */
+.secondtext {
+  font-family: 'Proxima Nova Rg', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* line 148, D:/Hillel/sports/scss/_header.scss */
+.appicon {
+  background-image: url("../images/apple.png");
+  background-repeat: no-repeat;
+  width: 33px;
+  height: 37px;
+  margin: 19px 0px 19px 43px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* line 157, D:/Hillel/sports/scss/_header.scss */
+.googleicon {
+  background-image: url("../images/googleplay.png");
+  background-repeat: no-repeat;
+  width: 36px;
+  height: 39px;
+  margin: 19px 0px 19px 43px;
+}
+
+/* line 164, D:/Hillel/sports/scss/_header.scss */
+.app {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 168, D:/Hillel/sports/scss/_header.scss */
+.app-text {
+  padding: 21px 47px 21px 29px;
+}
+
+/* line 171, D:/Hillel/sports/scss/_header.scss */
+.play-text {
+  padding: 21px 47px 21px 29px;
+}
+
+@media (max-width: 1541px) {
+  /* line 175, D:/Hillel/sports/scss/_header.scss */
+  .container {
+    max-width: 700px;
+    width: 100%;
+  }
+  /* line 179, D:/Hillel/sports/scss/_header.scss */
+  .bpic {
+    background-image: url("../images/768.png");
+  }
+  /* line 182, D:/Hillel/sports/scss/_header.scss */
+  .bcolor {
+    background-color: rgba(24, 22, 54, 0.6);
+  }
+  /* line 185, D:/Hillel/sports/scss/_header.scss */
+  .topheader {
+    max-width: 800px;
+  }
+  /* line 188, D:/Hillel/sports/scss/_header.scss */
+  .be {
+    font-size: 64px;
+    padding-left: 69px;
+    line-height: 81px;
+  }
+  /* line 193, D:/Hillel/sports/scss/_header.scss */
+  .play {
+    font-size: 64px;
+    padding-left: 177px;
+    line-height: 81px;
+    margin-bottom: 184px;
+  }
+  /* line 199, D:/Hillel/sports/scss/_header.scss */
+  .line {
+    left: 237px;
+    z-index: 0;
+  }
+  /* line 203, D:/Hillel/sports/scss/_header.scss */
+  .nav {
+    align-items: center;
+    justify-content: center;
+  }
+  /* line 207, D:/Hillel/sports/scss/_header.scss */
+  .download-apps {
+    align-items: center;
+    justify-content: center;
+  }
+  /* line 211, D:/Hillel/sports/scss/_header.scss */
+  .topheader {
+    position: relative;
+    padding-top: 194px;
+  }
+  /* line 215, D:/Hillel/sports/scss/_header.scss */
+  .nav {
+    margin-bottom: 116px;
+  }
+  /* line 218, D:/Hillel/sports/scss/_header.scss */
+  .download-apps {
+    padding-bottom: 91px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 223, D:/Hillel/sports/scss/_header.scss */
+  .container {
+    max-width: 320px;
+    width: 100%;
+  }
+  /* line 227, D:/Hillel/sports/scss/_header.scss */
+  .bpic {
+    background-image: url("../images/320.png");
+  }
+  /* line 230, D:/Hillel/sports/scss/_header.scss */
+  .bcolor {
+    background-color: rgba(24, 22, 54, 0.4);
+  }
+  /* line 233, D:/Hillel/sports/scss/_header.scss */
+  .toptext {
+    display: none;
+  }
+  /* line 236, D:/Hillel/sports/scss/_header.scss */
+  .logo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 240, D:/Hillel/sports/scss/_header.scss */
+  .be {
+    font-size: 32px;
+    padding-left: 10px;
+    line-height: 40px;
+    letter-spacing: 1.76px;
+    margin-bottom: 20px;
+  }
+  /* line 247, D:/Hillel/sports/scss/_header.scss */
+  .play {
+    font-size: 32px;
+    font-family: 'Proxima Nova Rg', sans-serif;
+    padding-left: 45px;
+    padding-right: 5px;
+    line-height: 40px;
+    letter-spacing: 1.76px;
+    margin-bottom: 118px;
+  }
+  /* line 256, D:/Hillel/sports/scss/_header.scss */
+  .line {
+    background-image: url("../images/mobileline.png");
+    left: 75px;
+    width: 139px;
+    height: 174px;
+    bottom: -15px;
+  }
+  /* line 263, D:/Hillel/sports/scss/_header.scss */
+  .download-apps {
+    padding-bottom: 60px;
+  }
+  /* line 266, D:/Hillel/sports/scss/_header.scss */
+  .appstore {
+    width: 142px;
+    border-radius: 52px;
+    margin-right: 8px;
+  }
+  /* line 271, D:/Hillel/sports/scss/_header.scss */
+  .firsttext {
+    font-size: 8px;
+    line-height: 12px;
+    letter-spacing: 0.4px;
+  }
+  /* line 276, D:/Hillel/sports/scss/_header.scss */
+  .secondtext {
+    font-size: 8px;
+    line-height: 12px;
+    letter-spacing: 0.4px;
+  }
+  /* line 281, D:/Hillel/sports/scss/_header.scss */
+  .appicon {
+    background-image: url("../images/appmob.png");
+    width: 15px;
+    height: 17px;
+    margin: 11px 0px 11px 20px;
+  }
+  /* line 287, D:/Hillel/sports/scss/_header.scss */
+  .googleicon {
+    background-image: url("../images/plmob.png");
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 18px;
+    margin: 11px 0px 11px 20px;
+  }
+  /* line 294, D:/Hillel/sports/scss/_header.scss */
+  .app-text {
+    padding: 11px 10px 11px 10px;
+  }
+  /* line 297, D:/Hillel/sports/scss/_header.scss */
+  .play-text {
+    padding: 11px 17px 11px 10px;
+  }
+  /* line 300, D:/Hillel/sports/scss/_header.scss */
+  .nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  /* line 307, D:/Hillel/sports/scss/_header.scss */
+  .link {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.4px;
+    margin-right: 33px;
+    margin-bottom: 9px;
+  }
+  /* line 314, D:/Hillel/sports/scss/_header.scss */
+  .link:hover {
+    color: #ffffff;
+  }
+  /* line 318, D:/Hillel/sports/scss/_header.scss */
+  .link:last-child {
+    margin-right: 0px;
+  }
+  /* line 321, D:/Hillel/sports/scss/_header.scss */
+  .link:nth-child(3) {
+    margin-right: 0px;
+  }
+  /* line 325, D:/Hillel/sports/scss/_header.scss */
+  .flexreverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+@font-face {
+  font-family: 'Proxima Nova Rg';
+  src: url("fonts/subset-ProximaNova-Regular.eot");
+  src: url("fonts/subset-ProximaNova-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/subset-ProximaNova-Regular.woff2") format("woff2"), url("fonts/subset-ProximaNova-Regular.woff") format("woff"), url("fonts/subset-ProximaNova-Regular.ttf") format("truetype"), url("fonts/subset-ProximaNova-Regular.svg#ProximaNova-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Lt', sans-serif;
+  src: url("fonts/subset-ProximaNova-Semibold.eot");
+  src: url("fonts/subset-ProximaNova-Semibold.eot?#iefix") format("embedded-opentype"), url("fonts/subset-ProximaNova-Semibold.woff2") format("woff2"), url("fonts/subset-ProximaNova-Semibold.woff") format("woff"), url("fonts/subset-ProximaNova-Semibold.ttf") format("truetype"), url("fonts/subset-ProximaNova-Semibold.svg#ProximaNova-Semibold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Rg', sans-serif;
+  src: url("fonts/subset-ProximaNova-Bold.eot");
+  src: url("fonts/subset-ProximaNova-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/subset-ProximaNova-Bold.woff2") format("woff2"), url("fonts/subset-ProximaNova-Bold.woff") format("woff"), url("fonts/subset-ProximaNova-Bold.ttf") format("truetype"), url("fonts/subset-ProximaNova-Bold.svg#ProximaNova-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ankchiddjgmbalc';
+  src: url("fonts/subset-amlgjlahnkgmkjoldgbpeifodofplkkf.eot");
+  src: url("fonts/subset-amlgjlahnkgmkjoldgbpeifodofplkkf.eot?#iefix") format("embedded-opentype"), url("fonts/subset-amlgjlahnkgmkjoldgbpeifodofplkkf.woff2") format("woff2"), url("fonts/subset-amlgjlahnkgmkjoldgbpeifodofplkkf.woff") format("woff"), url("fonts/subset-amlgjlahnkgmkjoldgbpeifodofplkkf.ttf") format("truetype"), url("fonts/subset-amlgjlahnkgmkjoldgbpeifodofplkkf.svg#amlgjlahnkgmkjoldgbpeifodofplkkf") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* line 3, D:/Hillel/sports/scss/_athlets.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 6, D:/Hillel/sports/scss/_athlets.scss */
+.atext {
+  color: #e7e7e7;
+  font-family: 'Proxima Nova Rg', sans-serif;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 90px;
+  text-transform: uppercase;
+  padding: 100px 10px 0px 5px;
+}
+
+/* line 15, D:/Hillel/sports/scss/_athlets.scss */
+.halfcontainer {
+  max-width: 746px;
+  margin-left: 50%;
+}
+
+/* line 19, D:/Hillel/sports/scss/_athlets.scss */
+.bcontainer {
+  max-width: 1492px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 25, D:/Hillel/sports/scss/_athlets.scss */
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 29, D:/Hillel/sports/scss/_athlets.scss */
+.footpic {
+  background-image: url("../images/foot.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 625px;
+  height: 1105px;
+  top: -130px;
+  right: 50%;
+  bottom: 0;
+}
+
+/* line 39, D:/Hillel/sports/scss/_athlets.scss */
+.positioning {
+  position: relative;
+}
+
+/* line 42, D:/Hillel/sports/scss/_athlets.scss */
+.positioningb {
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 46, D:/Hillel/sports/scss/_athlets.scss */
+.baskpic {
+  background-image: url("../images/6bask.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 991px;
+  height: 815px;
+  top: 5px;
+  left: 40%;
+  bottom: 0;
+}
+
+/* line 56, D:/Hillel/sports/scss/_athlets.scss */
+.connection {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 54px;
+}
+
+/* line 61, D:/Hillel/sports/scss/_athlets.scss */
+.conheader {
+  font-family: 'Proxima Nova Rg', sans-serif;
+  color: #c1c1c1;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  padding-top: 70px;
+  padding-bottom: 20px;
+  width: 320px;
+}
+
+/* line 73, D:/Hillel/sports/scss/_athlets.scss */
+.context {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family: 'ankchiddjgmbalc', sans-serif;
+  padding-bottom: 35px;
+  font-weight: 400px;
+}
+
+/* line 83, D:/Hillel/sports/scss/_athlets.scss */
+.w1 {
+  max-width: 660px;
+  padding-left: 5px;
+  padding-right: 55px;
+}
+
+/* line 88, D:/Hillel/sports/scss/_athlets.scss */
+.w2 {
+  max-width: 720px;
+  padding-left: 5px;
+  padding-right: 30px;
+}
+
+/* line 93, D:/Hillel/sports/scss/_athlets.scss */
+.w3 {
+  max-width: 620px;
+  padding-left: 5px;
+  padding-right: 40px;
+  color: white;
+}
+
+/* line 99, D:/Hillel/sports/scss/_athlets.scss */
+.collaboration {
+  background-color: #f5f4fa;
+}
+
+/* line 103, D:/Hillel/sports/scss/_athlets.scss */
+.number {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: uppercase;
+  padding-top: 73px;
+  padding-right: 9px;
+  padding-left: 55px;
+}
+
+/* line 113, D:/Hillel/sports/scss/_athlets.scss */
+.number::after {
+  content: "";
+  display: block;
+  height: 5px;
+  border-radius: 2px;
+  background-color: #5e42b0;
+}
+
+/* line 120, D:/Hillel/sports/scss/_athlets.scss */
+.three::after {
+  content: "";
+  display: block;
+  height: 5px;
+  border-radius: 2px;
+  background-color: white;
+}
+
+/* line 127, D:/Hillel/sports/scss/_athlets.scss */
+.growth {
+  background-color: #5e42b0;
+}
+
+/* line 130, D:/Hillel/sports/scss/_athlets.scss */
+.numbera {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: uppercase;
+  padding-top: 73px;
+  padding-right: 9px;
+  padding-left: 5px;
+}
+
+/* line 140, D:/Hillel/sports/scss/_athlets.scss */
+.numbera::after {
+  content: "";
+  display: block;
+  height: 5px;
+  border-radius: 2px;
+  background-color: #5e42b0;
+}
+
+/* line 148, D:/Hillel/sports/scss/_athlets.scss */
+.btext {
+  color: #e7e7e7;
+  font-family: 'Proxima Nova Rg', sans-serif;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 60px;
+  text-transform: uppercase;
+  padding: 100px 100px 30px 55px;
+}
+
+/* line 157, D:/Hillel/sports/scss/_athlets.scss */
+.b1 {
+  padding-left: 55px;
+  max-width: 564px;
+  text-align: justify;
+}
+
+/* line 162, D:/Hillel/sports/scss/_athlets.scss */
+.b2 {
+  padding-left: 55px;
+  max-width: 529px;
+  text-align: justify;
+}
+
+/* line 167, D:/Hillel/sports/scss/_athlets.scss */
+.b3 {
+  padding-left: 55px;
+  max-width: 500px;
+  text-align: justify;
+  color: white;
+}
+
+/* line 173, D:/Hillel/sports/scss/_athlets.scss */
+.bc {
+  background-color: #0a0e34;
+}
+
+/* line 176, D:/Hillel/sports/scss/_athlets.scss */
+.bw {
+  color: #5e42b0;
+}
+
+/* line 179, D:/Hillel/sports/scss/_athlets.scss */
+.atext {
+  margin-right: 50px;
+}
+
+@media (max-width: 9000px) {
+  /* line 183, D:/Hillel/sports/scss/_athlets.scss */
+  .mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 1541px) {
+  /* line 188, D:/Hillel/sports/scss/_athlets.scss */
+  .context {
+    font-size: 18px;
+  }
+  /* line 191, D:/Hillel/sports/scss/_athlets.scss */
+  .baskpic {
+    top: -40px;
+    left: 30%;
+  }
+  /* line 195, D:/Hillel/sports/scss/_athlets.scss */
+  .atext {
+    font-size: 80px;
+  }
+  /* line 198, D:/Hillel/sports/scss/_athlets.scss */
+  .btext {
+    font-size: 80px;
+  }
+  /* line 201, D:/Hillel/sports/scss/_athlets.scss */
+  .mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 206, D:/Hillel/sports/scss/_athlets.scss */
+  .mobile {
+    display: block;
+  }
+  /* line 209, D:/Hillel/sports/scss/_athlets.scss */
+  .footballer {
+    display: none;
+  }
+  /* line 212, D:/Hillel/sports/scss/_athlets.scss */
+  .basketballer {
+    display: none;
+  }
+  /* line 215, D:/Hillel/sports/scss/_athlets.scss */
+  .mobtext {
+    color: #e7e7e7;
+    font-family: 'Proxima Nova Rg', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    padding: 25px 91px 300px 19px;
+  }
+  /* line 224, D:/Hillel/sports/scss/_athlets.scss */
+  .mobfpic {
+    background-image: url("../images/mobf.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 197px;
+    height: 281px;
+    z-index: 5;
+    top: 120px;
+    left: 60px;
+    right: 60px;
+  }
+  /* line 235, D:/Hillel/sports/scss/_athlets.scss */
+  .mobbpic {
+    background-image: url("../images/mobb.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 300px;
+    height: 281px;
+    z-index: 5;
+    top: 120px;
+    left: 0px;
+    right: 20px;
+  }
+  /* line 246, D:/Hillel/sports/scss/_athlets.scss */
+  .mobheader {
+    position: relative;
+  }
+  /* line 249, D:/Hillel/sports/scss/_athlets.scss */
+  .slideone {
+    padding: 0px 18px 69px 18px;
+  }
+  /* line 252, D:/Hillel/sports/scss/_athlets.scss */
+  .slidetwo {
+    background-color: #f5f4fa;
+    padding: 0px 18px 69px 18px;
+  }
+  /* line 256, D:/Hillel/sports/scss/_athlets.scss */
+  .slidethree {
+    background-color: #5e42b0;
+    padding: 0px 18px 69px 18px;
+  }
+  /* line 260, D:/Hillel/sports/scss/_athlets.scss */
+  .numbera {
+    font-size: 14px;
+  }
+  /* line 263, D:/Hillel/sports/scss/_athlets.scss */
+  .conheader {
+    font-size: 28px;
+  }
+  /* line 266, D:/Hillel/sports/scss/_athlets.scss */
+  .context {
+    font-size: 15px;
+    text-align: left;
+  }
+  /* line 270, D:/Hillel/sports/scss/_athlets.scss */
+  .auto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* line 276, D:/Hillel/sports/scss/_athlets.scss */
+  .gallery .fotorama__dot {
+    display: block;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: 12px;
+    left: 6px;
+    background-color: #d8d8d8;
+    border: none;
+  }
+}
+
+@font-face {
+  font-family: 'Proxima Nova Rg';
+  src: url("fonts/subset-ProximaNova-Regular.eot");
+  src: url("fonts/subset-ProximaNova-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/subset-ProximaNova-Regular.woff2") format("woff2"), url("fonts/subset-ProximaNova-Regular.woff") format("woff"), url("fonts/subset-ProximaNova-Regular.ttf") format("truetype"), url("fonts/subset-ProximaNova-Regular.svg#ProximaNova-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Lt', sans-serif;
+  src: url("fonts/subset-ProximaNova-Semibold.eot");
+  src: url("fonts/subset-ProximaNova-Semibold.eot?#iefix") format("embedded-opentype"), url("fonts/subset-ProximaNova-Semibold.woff2") format("woff2"), url("fonts/subset-ProximaNova-Semibold.woff") format("woff"), url("fonts/subset-ProximaNova-Semibold.ttf") format("truetype"), url("fonts/subset-ProximaNova-Semibold.svg#ProximaNova-Semibold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Rg', sans-serif;
+  src: url("fonts/subset-ProximaNova-Bold.eot");
+  src: url("fonts/subset-ProximaNova-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/subset-ProximaNova-Bold.woff2") format("woff2"), url("fonts/subset-ProximaNova-Bold.woff") format("woff"), url("fonts/subset-ProximaNova-Bold.ttf") format("truetype"), url("fonts/subset-ProximaNova-Bold.svg#ProximaNova-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ankchiddjgmbalc';
+  src: url("fonts/subset-amlgjlahnkgmkjoldgbpeifodofplkkf.eot");
+  src: url("fonts/subset-amlgjlahnkgmkjoldgbpeifodofplkkf.eot?#iefix") format("embedded-opentype"), url("fonts/subset-amlgjlahnkgmkjoldgbpeifodofplkkf.woff2") format("woff2"), url("fonts/subset-amlgjlahnkgmkjoldgbpeifodofplkkf.woff") format("woff"), url("fonts/subset-amlgjlahnkgmkjoldgbpeifodofplkkf.ttf") format("truetype"), url("fonts/subset-amlgjlahnkgmkjoldgbpeifodofplkkf.svg#amlgjlahnkgmkjoldgbpeifodofplkkf") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* line 3, D:/Hillel/sports/scss/_cards.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 6, D:/Hillel/sports/scss/_cards.scss */
+.cards {
+  list-style: none;
+}
+
+/* line 9, D:/Hillel/sports/scss/_cards.scss */
+.card {
+  display: flex;
+}
+
+/* line 11, D:/Hillel/sports/scss/_cards.scss */
+.card__image {
+  flex-basis: 50%;
+  background-image: url("../images/card1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* line 17, D:/Hillel/sports/scss/_cards.scss */
+.card__image--second {
+  background-image: url("../images/card2.jpg");
+}
+
+/* line 20, D:/Hillel/sports/scss/_cards.scss */
+.card__image--third {
+  background-image: url("../images/card3.jpg");
+}
+
+/* line 24, D:/Hillel/sports/scss/_cards.scss */
+.card__content {
+  flex-basis: 50%;
+  max-width: 800px;
+  position: relative;
+  padding-left: 128px;
+  padding-top: 239px;
+  padding-bottom: 124px;
+  padding-right: 15px;
+}
+
+/* line 33, D:/Hillel/sports/scss/_cards.scss */
+.card__content--reverse {
+  padding: 244px 122px 122px 5px;
+}
+
+/* line 37, D:/Hillel/sports/scss/_cards.scss */
+.card__number {
+  width: 168px;
+  height: 155px;
+  background-color: #5e42b0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 211px;
+  left: -84px;
+}
+
+/* line 49, D:/Hillel/sports/scss/_cards.scss */
+.card__number--reverse {
+  left: auto;
+  right: -84px;
+}
+
+/* line 54, D:/Hillel/sports/scss/_cards.scss */
+.card__title {
+  color: #e6e6e6;
+  font-family: 'Proxima Nova Rg', sans-serif;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 90px;
+  text-transform: uppercase;
+  margin-bottom: 102px;
+}
+
+/* line 63, D:/Hillel/sports/scss/_cards.scss */
+.card__description {
+  color: #000000;
+  font-family: 'Proxima Nova Rg', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 1.2px;
+  max-width: 350px;
+  min-height: 174px;
+  padding-left: 6px;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+/* line 77, D:/Hillel/sports/scss/_cards.scss */
+.card__description::after {
+  content: "";
+  display: block;
+  width: 22px;
+  height: 5px;
+  border-radius: 2px;
+  background-color: #5e42b0;
+  position: absolute;
+  bottom: 0;
+  left: 6px;
+}
+
+/* line 90, D:/Hillel/sports/scss/_cards.scss */
+.tex {
+  font-family: 'Proxima Nova Rg', sans-serif;
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+/* line 99, D:/Hillel/sports/scss/_cards.scss */
+.tex::after {
+  content: "";
+  display: block;
+  height: 5px;
+  border-radius: 2px;
+  background-color: white;
+  opacity: 0.3;
+}
+
+/* line 107, D:/Hillel/sports/scss/_cards.scss */
+.reverse {
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 1541px) {
+  /* line 111, D:/Hillel/sports/scss/_cards.scss */
+  .card {
+    flex-direction: column;
+  }
+  /* line 113, D:/Hillel/sports/scss/_cards.scss */
+  .card__image {
+    flex-basis: 584px;
+  }
+  /* line 116, D:/Hillel/sports/scss/_cards.scss */
+  .card__number {
+    width: 116px;
+    height: 116px;
+    left: 33px;
+    top: -80px;
+  }
+  /* line 122, D:/Hillel/sports/scss/_cards.scss */
+  .card__content {
+    padding-left: 28px;
+    padding-top: 74px;
+    padding-bottom: 63px;
+    max-width: 100%;
+  }
+  /* line 128, D:/Hillel/sports/scss/_cards.scss */
+  .card__title {
+    margin-bottom: 20px;
+  }
+  /* line 131, D:/Hillel/sports/scss/_cards.scss */
+  .card__description {
+    max-width: 100%;
+    min-height: auto;
+    padding-bottom: 35px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 140, D:/Hillel/sports/scss/_cards.scss */
+  .card__image {
+    flex-basis: 351px;
+  }
+  /* line 143, D:/Hillel/sports/scss/_cards.scss */
+  .card__number {
+    width: 70px;
+    height: 70px;
+    top: -58px;
+    left: 19px;
+  }
+  /* line 149, D:/Hillel/sports/scss/_cards.scss */
+  .card__title {
+    color: #e7e7e7;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 1.4px;
+    margin-bottom: 15px;
+  }
+  /* line 156, D:/Hillel/sports/scss/_cards.scss */
+  .card__content {
+    padding: 28px 19px 51px 17px;
+  }
+  /* line 159, D:/Hillel/sports/scss/_cards.scss */
+  .card__description {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+    padding-left: 2px;
+    padding-bottom: 25px;
+  }
+  /* line 166, D:/Hillel/sports/scss/_cards.scss */
+  .card__description::after {
+    left: 2px;
+  }
+  /* line 171, D:/Hillel/sports/scss/_cards.scss */
+  .tex::after {
+    height: 4px;
+  }
+  /* line 174, D:/Hillel/sports/scss/_cards.scss */
+  .tex {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+@font-face {
+  font-family: 'Proxima Nova Rg';
+  src: url("fonts/subset-ProximaNova-Regular.eot");
+  src: url("fonts/subset-ProximaNova-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/subset-ProximaNova-Regular.woff2") format("woff2"), url("fonts/subset-ProximaNova-Regular.woff") format("woff"), url("fonts/subset-ProximaNova-Regular.ttf") format("truetype"), url("fonts/subset-ProximaNova-Regular.svg#ProximaNova-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Lt', sans-serif;
+  src: url("fonts/subset-ProximaNova-Semibold.eot");
+  src: url("fonts/subset-ProximaNova-Semibold.eot?#iefix") format("embedded-opentype"), url("fonts/subset-ProximaNova-Semibold.woff2") format("woff2"), url("fonts/subset-ProximaNova-Semibold.woff") format("woff"), url("fonts/subset-ProximaNova-Semibold.ttf") format("truetype"), url("fonts/subset-ProximaNova-Semibold.svg#ProximaNova-Semibold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Rg', sans-serif;
+  src: url("fonts/subset-ProximaNova-Bold.eot");
+  src: url("fonts/subset-ProximaNova-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/subset-ProximaNova-Bold.woff2") format("woff2"), url("fonts/subset-ProximaNova-Bold.woff") format("woff"), url("fonts/subset-ProximaNova-Bold.ttf") format("truetype"), url("fonts/subset-ProximaNova-Bold.svg#ProximaNova-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ankchiddjgmbalc';
+  src: url("fonts/subset-amlgjlahnkgmkjoldgbpeifodofplkkf.eot");
+  src: url("fonts/subset-amlgjlahnkgmkjoldgbpeifodofplkkf.eot?#iefix") format("embedded-opentype"), url("fonts/subset-amlgjlahnkgmkjoldgbpeifodofplkkf.woff2") format("woff2"), url("fonts/subset-amlgjlahnkgmkjoldgbpeifodofplkkf.woff") format("woff"), url("fonts/subset-amlgjlahnkgmkjoldgbpeifodofplkkf.ttf") format("truetype"), url("fonts/subset-amlgjlahnkgmkjoldgbpeifodofplkkf.svg#amlgjlahnkgmkjoldgbpeifodofplkkf") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* line 3, D:/Hillel/sports/scss/_footer.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 6, D:/Hillel/sports/scss/_footer.scss */
+.footer {
+  background-image: url("../images/backgroundfooter.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 11, D:/Hillel/sports/scss/_footer.scss */
+.bcolor2 {
+  background-color: rgba(24, 22, 54, 0.9);
+}
+
+/* line 14, D:/Hillel/sports/scss/_footer.scss */
+.lineone {
+  color: #ffffff;
+  font-family: 'Proxima Nova Rg', sans-serif;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 100px;
+  text-transform: uppercase;
+  letter-spacing: 4.96px;
+  position: relative;
+  z-index: 2;
+}
+
+/* line 25, D:/Hillel/sports/scss/_footer.scss */
+.linetwo {
+  color: #a496ca;
+  font-family: 'Proxima Nova Rg', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+}
+
+/* line 35, D:/Hillel/sports/scss/_footer.scss */
+.download-apps-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 197px;
+}
+
+/* line 42, D:/Hillel/sports/scss/_footer.scss */
+.line1 {
+  position: absolute;
+  background-image: url("../images/footerline1.png");
+  background-repeat: no-repeat;
+  width: 138px;
+  height: 157px;
+  top: 240px;
+  left: 600px;
+}
+
+/* line 51, D:/Hillel/sports/scss/_footer.scss */
+.line2 {
+  position: absolute;
+  background-image: url("../images/footerline2.png");
+  background-repeat: no-repeat;
+  width: 275px;
+  height: 314px;
+  top: 137px;
+  left: 990px;
+}
+
+/* line 61, D:/Hillel/sports/scss/_footer.scss */
+.footer-icon {
+  background-image: url("../images/footerlogo.png");
+  background-repeat: no-repeat;
+  width: 130px;
+  height: 137px;
+  margin-right: 36px;
+}
+
+/* line 68, D:/Hillel/sports/scss/_footer.scss */
+.flogotext {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  padding: 247px 0px 153px 0px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 76, D:/Hillel/sports/scss/_footer.scss */
+.footercontainer {
+  max-width: 1810px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 81, D:/Hillel/sports/scss/_footer.scss */
+.footerlogoname {
+  background-image: url("../images/footersurface.png");
+  background-repeat: no-repeat;
+  width: 172px;
+  height: 30px;
+  margin-left: 50px;
+  display: block;
+}
+
+/* line 89, D:/Hillel/sports/scss/_footer.scss */
+.mediamr {
+  margin-right: 31px;
+}
+
+/* line 92, D:/Hillel/sports/scss/_footer.scss */
+.media {
+  margin-left: 150px;
+}
+
+/* line 95, D:/Hillel/sports/scss/_footer.scss */
+.contact {
+  color: #ffffff;
+  font-family: 'Proxima Nova Rg', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 1px;
+  margin-right: 50px;
+  display: block;
+}
+
+/* line 105, D:/Hillel/sports/scss/_footer.scss */
+.contact:hover {
+  color: #a496ca;
+  cursor: pointer;
+}
+
+/* line 110, D:/Hillel/sports/scss/_footer.scss */
+.footer-socials {
+  padding-top: 71px;
+  padding-bottom: 70px;
+  background-color: rgba(24, 22, 54, 0.6);
+  width: 100%;
+}
+
+/* line 116, D:/Hillel/sports/scss/_footer.scss */
+.footer-socials-container {
+  max-width: 1810px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* line 125, D:/Hillel/sports/scss/_footer.scss */
+.slogo:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 1541px) {
+  /* line 129, D:/Hillel/sports/scss/_footer.scss */
+  .flogotext {
+    display: flex;
+    flex-direction: column;
+    padding: 128px 0px 153px 0px;
+  }
+  /* line 134, D:/Hillel/sports/scss/_footer.scss */
+  .footer-icon {
+    margin-right: 0px;
+    margin-bottom: 72px;
+  }
+  /* line 138, D:/Hillel/sports/scss/_footer.scss */
+  .line1 {
+    top: 330px;
+    left: 25px;
+  }
+  /* line 142, D:/Hillel/sports/scss/_footer.scss */
+  .line2 {
+    top: 270px;
+    left: 340px;
+  }
+  /* line 146, D:/Hillel/sports/scss/_footer.scss */
+  .lineone {
+    font-size: 80px;
+    text-align: center;
+  }
+  /* line 150, D:/Hillel/sports/scss/_footer.scss */
+  .linetwo {
+    text-align: center;
+  }
+  /* line 153, D:/Hillel/sports/scss/_footer.scss */
+  .footer-socials {
+    padding-top: 36px;
+    padding-bottom: 37px;
+  }
+  /* line 157, D:/Hillel/sports/scss/_footer.scss */
+  .none {
+    display: none;
+  }
+  /* line 160, D:/Hillel/sports/scss/_footer.scss */
+  .media {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 166, D:/Hillel/sports/scss/_footer.scss */
+  .lineone {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  /* line 170, D:/Hillel/sports/scss/_footer.scss */
+  .linetwo {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  /* line 174, D:/Hillel/sports/scss/_footer.scss */
+  .flogotext {
+    display: flex;
+    flex-direction: column;
+    padding: 128px 0px 72px 0px;
+  }
+  /* line 179, D:/Hillel/sports/scss/_footer.scss */
+  .footer-icon {
+    margin-bottom: 57px;
+  }
+  /* line 182, D:/Hillel/sports/scss/_footer.scss */
+  .line1 {
+    background-image: url("../images/mobile1.png");
+    width: 58px;
+    height: 67px;
+    top: 241px;
+    left: 20px;
+  }
+  /* line 189, D:/Hillel/sports/scss/_footer.scss */
+  .line2 {
+    background-image: url("../images/mobile2.png");
+    width: 95px;
+    height: 121px;
+    top: 220px;
+    left: 150px;
+  }
+  /* line 196, D:/Hillel/sports/scss/_footer.scss */
+  .footer-icon {
+    background-image: url("../images/mobilelogo.png");
+    width: 73px;
+    height: 78px;
+    margin-right: 0px;
+    margin-bottom: 47px;
+  }
+  /* line 203, D:/Hillel/sports/scss/_footer.scss */
+  .download-apps-footer {
+    padding-bottom: 127px;
+  }
+  /* line 206, D:/Hillel/sports/scss/_footer.scss */
+  .footer-socials {
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

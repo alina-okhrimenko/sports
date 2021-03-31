@@ -1,0 +1,329 @@
+@import "variables";
+@import "typography";
+*{
+    box-sizing: border-box;
+}
+.bpic {
+    background-image: url($path + "football.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.bcolor {
+    background-color: rgba(24, 22, 54, 0.93);
+}
+.container {
+    max-width: 1542px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    width: 189px;
+    height: 33px;
+    display: block;
+}
+.topline {
+    display: flex;
+    padding-top: 54px;
+}
+.toptext {
+    color: #ffffff;
+    font-family: $primary-font;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    margin-left: auto;
+    padding-top: calc(33px/2);
+}
+.topheader {
+    position: relative;
+    padding-top: 310px;
+}
+.line {
+    background-image: url($path + "line.png");
+    width: 254px;
+    height: 317px;
+    position: absolute;
+    left: 445px;
+    z-index: 2;
+    bottom: -50px;
+}
+.be {
+    font-family: 'Proxima Nova Rg', sans-serif;
+    color: #ffffff;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 100px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    z-index: 3;
+    position: relative;
+}
+.play {
+    font-family: 'Proxima Nova Rg', sans-serif;
+    color: #ffffff;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 100px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 25px;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-bottom: 181px;
+    
+}
+.link {
+    text-decoration: none;
+    color: #9071ea;
+    font-family: 'Proxima Nova Rg', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    margin-right: 53px;
+
+    &:hover {
+        color: #ffffff;
+    }
+
+    &:last-child {
+        margin-right: 0px;
+    }
+}
+.download-apps {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 110px;
+}
+.appstore{
+    width: 311px;
+    background-color: #5e42b0;
+    border-radius: 52px;
+    margin-right: 53px;
+    box-shadow: 0 16px 24px #0a0e34;
+
+    &:hover{
+        background-color: black;
+    }
+} 
+.mr {
+    margin-right: 0px;
+}
+.app{
+    text-decoration: none;
+}
+.firsttext {
+    color: #ffffff;
+    font-family: 'Proxima Nova Rg', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;  
+}
+.secondtext{
+    font-family: 'Proxima Nova Rg', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.appicon {
+    background-image: url($path + "apple.png");
+    background-repeat: no-repeat;
+    width: 33px;
+    height: 37px;
+    margin: 19px 0px 19px 43px;
+    display: inline-block;
+    vertical-align: top;
+}
+.googleicon {
+    background-image: url($path + "googleplay.png");
+    background-repeat: no-repeat;
+    width: 36px;
+    height: 39px;
+    margin: 19px 0px 19px 43px;
+}
+.app {
+    display: flex;
+    flex-direction: row;
+}
+.app-text {
+    padding: 21px 47px 21px 29px;
+}
+.play-text {
+    padding: 21px 47px 21px 29px;
+}
+@media (max-width: 1541px) {
+    .container {
+        max-width: 700px;
+        width: 100%;
+    }
+    .bpic {
+        background-image: url($path + "768.png");
+    }
+    .bcolor {
+        background-color: rgba(24, 22, 54, 0.6);
+    }
+    .topheader {
+        max-width: 800px;
+    }
+    .be {
+        font-size: 64px;
+        padding-left: 69px;
+        line-height: 81px;
+    }
+    .play{
+        font-size: 64px;
+        padding-left: 177px;
+        line-height: 81px;
+        margin-bottom: 184px;
+    }
+    .line {
+        left: 237px;
+        z-index: 0;
+    }
+    .nav{
+        align-items: center;
+        justify-content: center;
+    }
+    .download-apps {
+        align-items: center;
+        justify-content: center;
+    }
+    .topheader {
+        position: relative;
+        padding-top: 194px;
+    }
+    .nav {
+        margin-bottom: 116px;
+    }
+    .download-apps {
+        padding-bottom: 91px;
+    }
+}
+@media (max-width: 767px) {
+    .container {
+        max-width: 320px;
+        width: 100%;
+    }
+    .bpic {
+        background-image: url($path + "320.png");
+    }
+    .bcolor {
+        background-color: rgba(24, 22, 54, 0.4);
+    }
+    .toptext {
+        display: none;
+    }
+    .logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .be {
+        font-size: 32px;
+        padding-left: 10px;
+        line-height: 40px;
+        letter-spacing: 1.76px;
+        margin-bottom: 20px;
+    }
+    .play{
+        font-size: 32px;
+        font-family: 'Proxima Nova Rg', sans-serif;
+        padding-left: 45px;
+        padding-right: 5px;
+        line-height: 40px;
+        letter-spacing: 1.76px;
+        margin-bottom: 118px;
+    }
+    .line {
+        background-image: url($path + "mobileline.png");
+        left: 75px;
+        width: 139px;
+        height: 174px;
+        bottom: -15px;
+    }
+    .download-apps {
+        padding-bottom: 60px;
+    }
+    .appstore{
+        width: 142px;
+        border-radius: 52px;
+        margin-right: 8px;
+    } 
+    .firsttext {
+        font-size: 8px;
+        line-height: 12px;
+        letter-spacing: 0.4px;  
+    }
+    .secondtext{
+        font-size: 8px;
+        line-height: 12px;
+        letter-spacing: 0.4px;
+    }
+    .appicon {
+        background-image: url($path + "appmob.png");
+        width: 15px;
+        height: 17px;
+        margin: 11px 0px 11px 20px;
+    }
+    .googleicon {
+        background-image: url($path + "plmob.png");
+        background-repeat: no-repeat;
+        width: 16px;
+        height: 18px;
+        margin: 11px 0px 11px 20px;
+    }
+    .app-text {
+        padding: 11px 10px 11px 10px;
+    }
+    .play-text {
+        padding: 11px 17px 11px 10px;
+    }
+    .nav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 20px;   
+    }
+    .link {
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.4px;
+        margin-right: 33px;
+        margin-bottom: 9px;
+    
+        &:hover {
+            color: #ffffff;
+        }
+    
+        &:last-child {
+            margin-right: 0px;
+        }
+        &:nth-child(3) {
+            margin-right: 0px;
+        }
+    }
+    .flexreverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

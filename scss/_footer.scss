@@ -1,0 +1,211 @@
+@import "variables";
+@import "typography";
+* {
+    box-sizing: border-box;
+}
+.footer {
+    background-image: url($path + "backgroundfooter.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.bcolor2 {
+    background-color: rgba(24, 22, 54, 0.9);
+}
+.lineone {
+    color: #ffffff;
+    font-family: 'Proxima Nova Rg', sans-serif;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 100px;
+    text-transform: uppercase;
+    letter-spacing: 4.96px;
+    position: relative;
+    z-index: 2;
+}
+.linetwo {
+    color: #a496ca;
+    font-family: 'Proxima Nova Rg', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+}
+.download-apps-footer {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   padding-bottom: 197px;
+}
+.line1 {
+    position: absolute;
+    background-image: url($path + "footerline1.png");
+    background-repeat: no-repeat;
+    width: 138px;
+    height: 157px;
+    top: 240px;
+    left: 600px;
+}
+.line2 {
+    position: absolute;
+    background-image: url($path + "footerline2.png");
+    background-repeat: no-repeat;
+    width: 275px;
+    height: 314px;
+    top: 137px;
+    left: 990px;
+   
+}
+.footer-icon {
+    background-image: url($path + "footerlogo.png");
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 137px;
+    margin-right: 36px;
+}
+.flogotext {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 247px 0px 153px 0px;
+    align-items: center;
+   justify-content: center;
+}
+.footercontainer {
+    max-width: 1810px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footerlogoname {
+    background-image: url($path + "footersurface.png");
+    background-repeat: no-repeat;
+    width: 172px;
+    height: 30px;
+    margin-left: 50px;
+    display: block;
+}
+.mediamr {
+    margin-right: 31px;
+}
+.media {
+    margin-left: 150px;
+}
+.contact {
+    color: #ffffff;
+    font-family: 'Proxima Nova Rg', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin-right: 50px;
+    display: block;
+
+    &:hover{
+        color: #a496ca;
+        cursor: pointer;
+    }
+}
+.footer-socials {
+    padding-top: 71px;
+    padding-bottom: 70px;
+    background-color: rgba(24, 22, 54, 0.60);
+    width: 100%;   
+}
+.footer-socials-container {
+    max-width: 1810px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.slogo:hover {
+    transform: scale(1.2);
+}
+@media (max-width: 1541px){
+    .flogotext {
+        display: flex;
+        flex-direction: column;
+        padding: 128px 0px 153px 0px;
+    }
+    .footer-icon {
+        margin-right: 0px;
+        margin-bottom: 72px;
+    }
+    .line1 {
+        top: 330px;
+        left: 25px;
+    }
+    .line2 {
+        top: 270px;
+        left: 340px;
+    }
+    .lineone {
+        font-size: 80px;
+        text-align: center;
+    }
+    .linetwo {
+        text-align: center;
+    }
+    .footer-socials {
+        padding-top: 36px;
+        padding-bottom: 37px;
+    }
+    .none {
+        display: none;
+    }
+    .media {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (max-width: 767px) {
+    .lineone {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .linetwo {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .flogotext {
+        display: flex;
+        flex-direction: column;
+        padding: 128px 0px 72px 0px;
+    }
+    .footer-icon {
+        margin-bottom: 57px;
+    }
+    .line1 {
+        background-image: url($path + "mobile1.png");
+        width: 58px;
+        height: 67px;
+        top: 241px;
+        left: 20px;
+    }
+    .line2 {
+        background-image: url($path + "mobile2.png");
+        width: 95px;
+        height: 121px;
+        top: 220px;
+        left: 150px; 
+    }
+    .footer-icon {
+        background-image: url($path + "mobilelogo.png");
+        width: 73px;
+        height: 78px;
+        margin-right: 0px;
+        margin-bottom: 47px;
+    }
+    .download-apps-footer {
+        padding-bottom: 127px;
+     }
+     .footer-socials {
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+    
+}
